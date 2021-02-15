@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>    
+    <div>
+  <div style="display: table-cell;">
+<table>
+  <tr>
+    <th><button id="00" onclick="markX(this.id);"></button></th> 
+    <th><button id="01" onclick="markX(this.id);"></button></th> 
+    <th><button id="02" onclick="markX(this.id);"></button></th> 
+  </tr>
+  <tr>
+    <td><button id="10" onclick="markX(this.id);"></button></td>
+    <td><button id="11" onclick="markX(this.id);"></button></td>
+    <td><button id="12" onclick="markX(this.id);"></button></td>
+  </tr>
+  <tr>
+    <td><button id="20" onclick="markX(this.id);"></button></td>
+    <td><button id="21" onclick="markX(this.id);"></button></td>
+    <td><button id="22" onclick="markX(this.id);"></button></td>
+  </tr>
+</table>
+  </div>
+  <div id="status" style="display: table-cell;">
+    Now it is <span id="turn"></span>'s turn
+    <br/>
+    <br/>
+    <br/>
+    <div id="result" style="display: none;">
+     Winner is <span id="winner"></span>
+    </div>
+  </div>
+</div>
+    <script src="index.js"></script>
+  </body>
+</html>

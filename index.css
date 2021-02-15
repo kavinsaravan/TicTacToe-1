@@ -1,0 +1,25 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+}
+
+th {
+    height: 50px;
+}
+
+td {
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+#status {
+    padding: 50px;
+    font-size: 24pt;
+}
